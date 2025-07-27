@@ -1,5 +1,6 @@
 # MWNet
-Official code of MWNet: Memory Bank-based Wavelet Filtering and Fusion Network for Ultrasound Long Video Segmentation
+Official code of MWNet: Memory Bank-based Wavelet Filtering and Fusion Network for Ultrasound Long Video Segmentation.
+Contributors: [Chenxiao Zhang](https://github.com/XiAooZ), Runshi Zhang
 # Requirements
 We trained our models depending on Pytorch 2.1.1 and Python 3.8.
 # Acknowledgments
