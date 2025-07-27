@@ -4,14 +4,14 @@ Official code of MWNet: Memory Bank-based Wavelet Filtering and Fusion Network f
 Contributors: [Chenxiao Zhang](https://github.com/XiAooZ), Runshi Zhang
 
 # Network Architecture
-MWNet:
+## MWNet:
 ![MWNet](imgs/NetworkArchitecture.png)
 
-High-frequency-aware feature fusion (HFF):
+## High-frequency-aware feature fusion (HFF):
 
 <img src="https://github.com/XiAooZ/MWNet/blob/main/imgs/HFF.png" alt="HFF" width=70%>
 
-Long-short term memory bank:
+## Long-short term memory bank:
 
 <img src="https://github.com/XiAooZ/MWNet/blob/main/imgs/LongShortMemoryBank.png" alt="LSMemory" width="50%">
 
