@@ -1,5 +1,5 @@
 # MWNet
-Official code of MWNet: Memory Bank-based Wavelet Filtering and Fusion Network for Ultrasound Long Video Segmentation.
+Official code of **MWNet: Memory Bank-based Wavelet Filtering and Fusion Network for Ultrasound Long Video Segmentation**.
 
 Contributors: [Chenxiao Zhang](https://github.com/XiAooZ), Runshi Zhang
 
