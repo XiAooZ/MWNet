@@ -28,7 +28,7 @@ The **CAMUS dataset** is available for download in [CAMUS](https://www.creatis.i
 The **TG3K dataset** is availble for download in [TRFE-Net project](https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation)
 
 # Code Details
-Module **Memory-based wavelet convolution (MWConv)** and **Long short-term memory bank** can be found in [mmsegmentation/mmseg/models/backbones/MWNet.py](https://github.com/XiAooZ/MWNet/blob/main/mmsegmentation/mmseg/models/backbones/MWConv.py). 
+Module **Memory-based wavelet convolution (MWConv)** and **Long short-term memory bank** can be found in [mmsegmentation/mmseg/models/backbones/MWConv.py](https://github.com/XiAooZ/MWNet/blob/main/mmsegmentation/mmseg/models/backbones/MWConv.py). 
 
 Module **high frequency feature fusion (HFF)** can be found in [mmsegmentation/mmseg/models/decode_heads/hff_head.py](https://github.com/XiAooZ/MWNet/blob/main/mmsegmentation/mmseg/models/decode_heads/hff_head.py)
 
