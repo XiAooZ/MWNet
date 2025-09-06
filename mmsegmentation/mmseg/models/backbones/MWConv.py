@@ -894,19 +894,3 @@ class MWConv(WTConvNeXt):
             if self.layer_fuse:
                 xs = cur_x[::-1]
         return tuple(outs)
-
-
-def save_featuremap(tensor, save_path):
-    feature_map = tensor[0,0,:,:]
-    feature_map = feature_map.unsqueeze(0).unsqueeze(0)
-    feature_map = torch.nn.functional.interpolate(feature_map,
-                                    size=(512,512),
-                                    mode='bilinear')
-    feature_map = feature_map.squeeze(0).squeeze(0)
-    min_val = feature_map.min()
-    max_val = feature_map.max()
-    eps = 1e-8
-    normalized = (feature_map - min_val) / (max_val - min_val + eps)
-    gray_tensor = (normalized * 255).byte()
-    gray_image = Image.fromarray(gray_tensor.cpu().numpy(), mode='L')
-    gray_image.save(save_path)
