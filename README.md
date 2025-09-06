@@ -35,7 +35,7 @@ Module **high frequency feature fusion (HFF)** can be found in [mmsegmentation/m
 # Requirements
 We trained our models depending on Pytorch 2.1.1 and Python 3.8.
 
-# Concat
+# Contact
 If you have any questions, feel free to contact [zhang_cx@buaa.edu.cn](mailto:zhang_cx@buaa.edu.cn)
 
 # Reference and Acknowledgments
